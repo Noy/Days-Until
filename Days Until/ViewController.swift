@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var daysLabel: UILabel!
     @IBOutlet weak var datePicker: UIDatePicker!
     
-    @IBAction func onCheckDate(_ sender: Any) {
+    @IBAction func onCheck(_ sender: Any) {
         let date = datePicker.date
         let today = Date()
         let dateComponentsFormatter = DateComponentsFormatter()
